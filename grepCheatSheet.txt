@@ -1,0 +1,12 @@
+Cheat sheet for containing regex and grep stuff.
+
+grep [a-z] {name_of_file} = searches for all lines containing letters a through z
+
+grep ^[a-z] {name_of_file} = seraches for lines that start with letters a through z
+
+grep $[0-9] {name_of_file} = searches for lines that end with digits 0 through 9
+
+grep $[Aa-Zz] {name_of_file} = searches for lines that end with capital and undercase letters a through z
+
+grep ^[Kk]ris {name_of_file} = seraches for lines that start with either capital or undercase k and complete the word 'kris'
+
